@@ -1,16 +1,18 @@
-# Route 53 / GitHub Pages DNS
+# AWS Route 53 DNS for primegen.ca
 
-A records for primegen.ca:
+Root A record values for GitHub Pages:
 
-- 185.199.108.153
-- 185.199.109.153
-- 185.199.110.153
-- 185.199.111.153
+```txt
+185.199.108.153
+185.199.109.153
+185.199.110.153
+185.199.111.153
+```
 
-CNAME for www:
+`www` CNAME:
 
-- boardrn.github.io
+```txt
+boardrn.github.io
+```
 
-GitHub Pages custom domain:
-
-- primegen.ca
+Keep NS and SOA records unchanged.
