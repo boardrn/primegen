@@ -1,6 +1,6 @@
-# PrimeGen Electric Website
+# Prime-Power Electric Website
 
-Static GitHub Pages website for PrimeGen Electric.
+Static GitHub Pages website for Prime-Power Electric.
 
 ## Local preview
 
@@ -42,7 +42,7 @@ To swap with personalized media, replace the file contents and keep the same fil
 ```bash
 cd ~/Desktop/primegen-electric-site
 git add .
-git commit -m "update PrimeGen Electric site"
+git commit -m "update Prime-Power Electric site"
 git push
 ```
 

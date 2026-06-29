@@ -28,7 +28,7 @@ if (quoteForm) {
     event.preventDefault();
     const data = new FormData(quoteForm);
     const recipient = quoteForm.dataset.recipient || 'Prime-gen@outlook.com';
-    const subject = 'PrimeGen Electric quote request';
+    const subject = 'Prime-Power Electric quote request';
     const body = [
       'New quote request from primegen.ca',
       '',
@@ -41,7 +41,7 @@ if (quoteForm) {
       'Message:',
       `${data.get('message') || ''}`,
       '',
-      'Sent from the PrimeGen Electric website contact form.'
+      'Sent from the Prime-Power Electric website contact form.'
     ].join('\n');
 
     window.location.href = `mailto:${encodeURIComponent(recipient)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
